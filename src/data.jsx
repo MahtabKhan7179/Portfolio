@@ -1,5 +1,8 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaNode } from 'react-icons/fa';
+import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import { SiMongodb, SiExpress } from "react-icons/si";
+
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -23,9 +26,21 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='text-6xl text-red-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'TailwindCSS',
+    icon: <RiTailwindCssFill className='text-6xl text-red-500' />,
+    text: 'Highly skilled in TailwindCSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+  },
+  {
+    id: nanoid(),
+    title: 'NodeJs',
+    icon: <FaNode className='text-6xl text-red-500' />,
+    text: 'Advanced proficiency in NodeJs, developing efficient and interactive front-end applications with various NodeJs packages. ',
+  },
+  {
+    id: nanoid(),
+    title: 'MongoDb',
+    icon: <SiMongodb className='text-6xl text-red-500' />,
+    text: 'Proficiency in MongoDb, developing efficient and interactive web applications with using MongoDb for storing data ',
   },
   {
     id: nanoid(),
@@ -35,15 +50,15 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='text-6xl text-red-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'ExpressJs',
+    icon: <SiExpress className='text-6xl text-red-500' />,
+    text: 'Advanced proficiency in ExpressJs, developing efficient and interactive back-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='text-6xl text-red-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'Next',
+    icon: <RiNextjsFill className='text-6xl text-red-500' />,
+    text: 'Advanced proficiency in NextJs, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 
 ];
