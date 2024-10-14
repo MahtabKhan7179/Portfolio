@@ -12,7 +12,6 @@ const Hero = () => {
                     <div className='flex gap-x-6 mt-4 text-zinc-500 text-2xl '>
                         <a className='hover:text-red-600 duration-300' href='https://github.com/MahtabKhan7179'><FaGithub /></a>
                         <a className='hover:text-red-600 duration-300' href='https://www.linkedin.com/in/khanmahtab/'><FaLinkedinIn /></a>
-                        // <a className='hover:text-red-600 duration-300' href='#'><FaTwitterSquare /></a>
                     </div>
 
                 </article>
