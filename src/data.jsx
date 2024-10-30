@@ -80,6 +80,6 @@ export const projects = [
     url: 'https://mahtabkhan7179.github.io/dashboard/',
     github: 'https://github.com/MahtabKhan7179/dashboard',
     title: 'Student Enrollment Form',
-    text: 'Developed an enrollment page using HTML5, CSS3, and JavaScript, featuring validated form fields with error messages. Upon submission, enrolled students are dynamically added to a table with a fade-in effect. Images load from submitted URLs, and links open in new tab. The responsive design utilizes Bootstrap for layout.',
+    text: 'Developed an enrollment page using HTML5, CSS3, and JavaScript, featuring validated form fields with error messages. Upon submission, enrolled students are dynamically added to a table with a fade-in effect. Images load from submitted URLs, and links open in new tabs. The responsive design utilizes Bootstrap for layout.',
   },
 ];
