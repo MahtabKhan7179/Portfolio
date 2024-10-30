@@ -1,18 +1,17 @@
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Projects from './components/projects';
-import Skills from './components/skills';
 import About from './components/about';
 import Footer from './components/footer';
+import Resume from './components/resume';
 function App() {
   return (
     <>
-
       <Navbar />
       <Hero />
-      <Skills />
       <About />
       <Projects />
+      <Resume />
       <Footer />
     </>
   );
