@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <header className='bg-zinc-200'>
             <nav className="hidden sm:flex mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-                <div className="flex lg:flex-1">
+                <div className="flex sm:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
                         <h2 className='text-3xl font-bold'>Mah<span className='text-red-600'>Tab</span></h2>
                     </a>
@@ -24,7 +24,6 @@ const Navbar = () => {
             {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
             <div className="sm:hidden" role="dialog" aria-modal="true">
                 {/* <!-- Background backdrop, show/hide based on slide-over state. --> */}
-                <div className="fixed inset-0 z-10"></div>
                 <div className="relative inset-y-0 right-0 z-10 w-full overflow-y-auto bg-zinc-200 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">

@@ -3,7 +3,6 @@ import Hero from './components/hero';
 import Projects from './components/projects';
 import Skills from './components/skills';
 import About from './components/about';
-import Footer from './components/footer';
 function App() {
   return (
     <>
@@ -13,7 +12,6 @@ function App() {
       <Skills />
       <About />
       <Projects />
-      <Footer />
     </>
   );
 }
