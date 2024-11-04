@@ -3,6 +3,7 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import { AiOutlineDownload } from "react-icons/ai";
 import pdf from "../assets/MahtabKhanFrontEndDeveloper3.pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import { useTranslation } from 'react-i18next';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     'pdfjs-dist/build/pdf.worker.min.mjs',
     import.meta.url,
@@ -14,6 +15,7 @@ function ResumeNew() {
         width: window.innerWidth,
         height: window.innerHeight,
     });
+    const { t } = useTranslation();
 
     useEffect(() => {
         const handleResize = () => {
@@ -34,7 +36,7 @@ function ResumeNew() {
                     <button type="button" className="flex flex-row text-zinc-200 bg-red-600 hover:bg-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                         href={pdf}>
                         <AiOutlineDownload />
-                        &nbsp;Download CV
+                        &nbsp;{t("downloadCv")}
                     </button>
                 </a>
             </div>
@@ -53,7 +55,7 @@ function ResumeNew() {
                     <button type="button" className="flex flex-row text-zinc-200 bg-red-600 hover:bg-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                         href={pdf}>
                         <AiOutlineDownload />
-                        &nbsp;Download CV
+                        &nbsp;{t("downloadCv")}
                     </button>
                 </a>
             </div>

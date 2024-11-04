@@ -7,7 +7,9 @@ import { TbWorld } from "react-icons/tb";
 // Contains the value and text for the options
 const languages = [
     { value: "en", text: "English (default)" },
+    { value: "hi", text: "हिन्दी" },
     { value: "ur", text: "Urdu" },
+    { value: "te", text: "తెలుగు" },
 ];
 
 const Navbar = () => {
@@ -45,7 +47,7 @@ const Navbar = () => {
             <nav className="hidden sm:flex mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 px-8 py-4" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
-                        <h2 className='text-3xl font-bold'>Mah<span className='text-red-600'>Tab</span></h2>
+                        <h2 className='text-3xl font-bold'>{t("mah")}<span className='text-red-600'>{t("tab")}</span></h2>
                     </a>
                 </div>
                 <div className="hidden sm:flex sm:gap-x-12">
