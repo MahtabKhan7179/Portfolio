@@ -100,7 +100,7 @@ const Navbar = () => {
                             </div>
 
 
-                            {languageBox && <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-zinc-100" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                            {languageBox && <div className="fixed right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-zinc-100" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                                 {languages.map((item) => {
                                     return (
                                         <div className="py-1" role="none">

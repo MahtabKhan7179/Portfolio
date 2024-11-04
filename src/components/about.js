@@ -8,7 +8,7 @@ const About = () => {
     return (
         <section className="bg-white py-20" id="about">
             <div className="align-element grid md:grid-cols-2 item-center gap-16">
-                <img src={aboutSVG} className="w-full h-64" />
+                <img src={aboutSVG} alt="about" className="w-full h-64" />
                 <article className="text-1xl">
                     <SectionTitle text="KnowWhoIAm?" />
                     <p className="hover:text-zinc-500 mt-8 leading-loose">

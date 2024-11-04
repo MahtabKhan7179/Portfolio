@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaNode } from 'react-icons/fa';
-import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import studentEnrollmentFormImage from "./assets/studentEnrollmentForm.gif";
 import dblogWebsiteImage from "./assets/dblog-website.gif";

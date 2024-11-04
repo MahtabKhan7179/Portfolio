@@ -5,7 +5,7 @@ const SkillsCard = ({ title, icon, text, progress }) => {
     const { t } = useTranslation();
 
     return (
-        <article className='group'>
+        <article className='z-10 group'>
             <span>{icon}</span>
             <h4 className="mt-6 font-bold">{title}</h4>
             <p className=" hidden group-hover:block mt-2 text-zinc-500">{t(text)}</p>

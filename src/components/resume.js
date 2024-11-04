@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../assets/SHADAB_KHAN_RESUME.pdf";
+import pdf from "../assets/MahtabKhanFrontEndDeveloper3.pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -29,9 +29,9 @@ function ResumeNew() {
 
     return (
         <div className='flex flex-col items-center' id="resume">
-            <div className='justify-center'>
+            <div className='justify-center z-10'>
                 <a href={pdf}>
-                    <button type="button" class="flex flex-row text-zinc-200 bg-red-600 hover:bg-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                    <button type="button" className="flex flex-row text-zinc-200 bg-red-600 hover:bg-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                         href={pdf}>
                         <AiOutlineDownload />
                         &nbsp;Download CV
@@ -48,9 +48,9 @@ function ResumeNew() {
                     </Document>
                 </div>
             </section>
-            <div className='justify-center'>
+            <div className='justify-center z-10'>
                 <a href={pdf}>
-                    <button type="button" class="flex flex-row text-zinc-200 bg-red-600 hover:bg-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                    <button type="button" className="flex flex-row text-zinc-200 bg-red-600 hover:bg-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                         href={pdf}>
                         <AiOutlineDownload />
                         &nbsp;Download CV
