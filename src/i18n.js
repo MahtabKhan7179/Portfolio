@@ -46,6 +46,8 @@ i18n.use(LanguageDetector)
                     "downloadCv": "Download CV",
                     "footerCraftedBy": "Crafted with love",
                     "footerCopyright": "© Mahtab Khan. All rights reserved.",
+                    "menu": "Our Menu",
+                    "menuDetail": "Created a food menu website using ReactJs, CSS. Provided filtering options via which users can filter menu items as per their choice."
                 },
             },
             ur: {
@@ -82,6 +84,8 @@ i18n.use(LanguageDetector)
                     "downloadCv": "سی وی ڈاؤن لوڈ کریں۔",
                     "footerCraftedBy": "پیار سے تیار کیا گیا",
                     "footerCopyright": "© مہتاب خان۔ جملہ حقوق محفوظ ہیں۔",
+                    "menu": "Our Menu",
+                    "menuDetail": "Created a food menu website using ReactJs, CSS. Provided filtering options via which users can filter menu items as per their choice."
                 },
             },
             hi: {
@@ -118,6 +122,8 @@ i18n.use(LanguageDetector)
                     "downloadCv": "सीवी डाउनलोड करें",
                     "footerCraftedBy": "प्यार से तैयार किया गया",
                     "footerCopyright": "© महताब खान. सर्वाधिकार सुरक्षित।",
+                    "menu": "Our Menu",
+                    "menuDetail": "Created a food menu website using ReactJs, CSS. Provided filtering options via which users can filter menu items as per their choice."
                 },
             },
 
@@ -155,6 +161,8 @@ i18n.use(LanguageDetector)
                     "downloadCv": "CVని డౌన్‌లోడ్ చేయండి",
                     "footerCraftedBy": "ప్రేమతో రూపొందించబడింది",
                     "footerCopyright": "© మహతాబ్ ఖాన్. అన్ని హక్కులు ప్రత్యేకించబడ్డాయి.",
+                    "menu": "Our Menu",
+                    "menuDetail": "Created a food menu website using ReactJs, CSS. Provided filtering options via which users can filter menu items as per their choice."
                 },
             },
 

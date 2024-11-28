@@ -4,6 +4,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import studentEnrollmentFormImage from "./assets/studentEnrollmentForm.gif";
 import dblogWebsiteImage from "./assets/dblog-website.gif";
+import menu from "./assets/menu.gif"
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -81,5 +82,13 @@ export const projects = [
     github: 'https://github.com/MahtabKhan7179/dashboard',
     title: 'StudentEnrollmentForm',
     text: 'StudentEnrollmentFormProjectDetail',
+  },
+  {
+    id: nanoid(),
+    img: menu,
+    url: 'https://menu-one-sable.vercel.app/',
+    github: 'https://github.com/MahtabKhan7179/Menu',
+    title: 'menu',
+    text: 'menuDetail',
   },
 ];
